@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer | About</title>
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <!-- Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+    <!-- * HEADER -->
+    <header id="header__inner">
+        <div class="container">
+            <!-- ! navbar -->
+            <nav class="main-nav">
+                <img src="img/logo.png" alt="logo" class="main-nav__logo">
+                <ul class="main-nav__items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html"  class="active">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- * SECTION A -->
+
+    <section id="about-a" class="text-center py-2">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="border-bottom"></div>
+            <p class="lead">As a dedicated professional, I bring a passion for innovation and a commitment to excellence in every project. My journey in the realm of technology is fueled by a curiosity to explore new horizons and a determination to deliver impactful solutions.</p>
+            <div class="info">
+                <img src="img/about.jpeg" alt="" class="info__image">
+                <div class="info__bio ">
+                    <p>With a professional approach, my dedication to passion and excellence in every project directs me towards the goal of generating innovative solutions. My desire to explore in the world of technology and my commitment to delivering effective solutions are fundamental values that shape my career. My analytical mindset and problem-solving skills contribute to offering a strategic perspective to each project. Furthermore, my communication skills and inclination towards teamwork contribute to achieving efficient results through collaboration. Focusing on customer needs in each project, I strive to maintain a balance between aesthetics and functionality. I stay updated on innovations, continuously evaluate industry developments, and integrate this knowledge into my projects. Thus, I am in a constant pursuit of learning and development to achieve optimal results in a dynamic and competitive environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- * SECTION B -->
+
+    <section id="about-b" class="bg-dark py-2">
+        <div class="container">
+            <h2 class="section-title">What I Know...</h2>
+            <div class="border-bottom"></div>
+            <div id="progress-bars">
+                <h4>Web Development</h4>
+                <div class="progress">
+                    <div style="width: 100%;"></div>
+                </div>
+                <h4>Mobil App Development</h4>
+                <div class="progress">
+                    <div style="width: 70%;"></div>
+                </div>
+                <h4>Machine Learning Development</h4>
+                <div class="progress">
+                    <div style="width: 55%;"></div>
+                </div>
+                <h4>Database Development</h4>
+                <div class="progress">
+                    <div style="width: 80%;"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- * SECTION C -->
+
+    <section id="about-c" class="bg-light py-2">
+        <div class="container">
+            <div class="about-logos">
+                <img src="img/joomla.png" alt="">
+                <img src="img/woocommerce.png" alt="">
+                <img src="img/wordpress.png" alt="">
+                <img src="img/wix.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- * SECTION D -->
+
+    <section id="about-d" class="py-2">
+        <div class="container">
+            <h2 class="section-title">References</h2>
+            <div class="border-bottom"></div>
+            <p class="lead text-center">I have had the pleasure of working with exceptional professionals and organizations throughout my career. Here are a few references that can speak to my skills and work ethic:</p>
+            <div class="references owl-carousel owl-theme">
+                <div>
+                    <p>Great service! The product quality and customer support have impressed me. They always assist professionally and promptly.</p>
+                    <ul>
+                        <li><img src="img/user-1.jpeg" alt=""></li>
+                        <li>Arjun Bird</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>With innovative and user-friendly products, this company perfectly meets our needs. They consistently provide up-to-date and effective solutions.</p>
+                    <ul>
+                        <li><img src="img/user-2.jpeg" alt=""></li>
+                        <li>Marina Roth</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>I've been a customer of this company for a long time, and I'm always satisfied. Their reliability and how seriously they take their work always impress me.</p>
+                    <ul>
+                        <li><img src="img/user-3.jpeg" alt=""></li>
+                        <li>Olivia Hull</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>I was surprised by the quality of their products. The price-performance ratio is truly fantastic. Additionally, their customer service is very helpful.</p>
+                    <ul>
+                        <li><img src="img/user-4.jpeg" alt=""></li>
+                        <li>Erin Rangel</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="main-footer">
+        <div class="footer-content container">
+            <p>Copyright &copy; 2023. | All Rights Reserved.</p>
+            <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ? Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            autoplay:true,
+            autoplayTimeout:3000,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:4
+                }
+            }
+        })
+    </script>
+
+
+    
+</body>
+</html>
